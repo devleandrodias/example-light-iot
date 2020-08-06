@@ -1,0 +1,23 @@
+{
+  "name": "example-light-iot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleandrodias/example-light-iot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleandrodias/example-light-iot/issues"
+  },
+  "homepage": "https://github.com/devleandrodias/example-light-iot#readme",
+  "dependencies": {
+    "johnny-five": "^2.0.0"
+  }
+}
