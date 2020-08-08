@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/devleandrodias/example-light-iot#readme",
   "dependencies": {
+    "firebase": "^7.17.2",
     "johnny-five": "^2.0.0"
   }
 }

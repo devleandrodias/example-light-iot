@@ -1,12 +1,10 @@
-const { Board, Led } = require("johnny-five");
-const board = new Board();
+var five = require("johnny-five");
+var board = new five.Board();
 
-board.on("ready", () => {
-  const led = new Led(13);
+board.on("ready", function () {
+  var rele = new five.Relay(8);
 
-  board.repl.inject({
-    led,
+  this.repl.inject({
+    rele: rele,
   });
-
-  led.toggle();
 });

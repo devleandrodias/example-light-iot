@@ -1,0 +1,5 @@
+{
+    "port": "/dev/tty.usbserial-RCBB_4QAG8N",
+    "programmer": "AVRISP mkII",
+    "board": "arduino:avr:uno"
+}
